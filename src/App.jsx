@@ -1,6 +1,11 @@
+import CharacterList from './components/CharacterList'
+
 function App() {
 	return (
-		<div>App</div>
+		<div className="bg-dark text-white min-vh-100">
+			<h1 className='text-center display-2 pt-4'>Rick and Morty</h1>
+			<CharacterList />
+		</div>
 	)
 }
 export default App

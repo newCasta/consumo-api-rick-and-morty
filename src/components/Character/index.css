@@ -1,0 +1,7 @@
+.ch-m {
+	margin-bottom: 20px !important;
+}
+
+.ch-m:last-child {
+	margin-bottom: 0 !important;
+}
